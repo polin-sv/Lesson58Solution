@@ -6,15 +6,12 @@ using namespace std;
 
 int main() {
 	short number = 10;
-	short* ptr = NULL;
-	ptr = &number;
+	short* ptr1 = NULL;
+	short* ptr2 = NULL;
+	ptr1 = &number;
+	ptr2 = ptr1 + 10;
 
-	cout << "0)" << ptr << endl;
-	cout << "1)" << (ptr += 10) << endl;
-	cout << "2)" << (ptr += 10) << endl;
-	cout << "3)" << (ptr += 10) << endl;
-	cout << "4)" << (ptr += 10) << endl;
-
+	cout << "result: " << (ptr2 - ptr1) << endl;
 
 	return 0;
 }
