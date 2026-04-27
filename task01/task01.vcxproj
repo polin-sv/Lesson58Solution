@@ -23,6 +23,7 @@
     <ClCompile Include="test01.cpp" />
     <ClCompile Include="test03.cpp" />
     <ClCompile Include="test04.cpp" />
+    <ClCompile Include="test05.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
